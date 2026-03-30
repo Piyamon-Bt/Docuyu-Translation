@@ -1,0 +1,24 @@
+# --- Backend (Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+uploads/            # ไม่ควรเอาไฟล์ที่ User อัปโหลดขึ้น Git
+chroma_db/         # ไม่ควรเอา Database ที่สร้างขึ้นขึ้น Git
+
+# --- Frontend (Node.js) ---
+node_modules/
+dist/               # ไฟล์ที่ Build แล้ว
+.DS_Store           # สำหรับ Mac
+*.local
+
+# --- Docker ---
+.docker/
+
+# --- Secret ---
+.env
+.env.*
+*.env
